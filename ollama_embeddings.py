@@ -7,7 +7,7 @@ embeddings = OllamaEmbeddings(
     model="nomic-embed-text"
 )
 
-text = "Langchain is a framework for building applications with AI."
+text = "There is a clash between civilizations and the love between a man and a woman is stronger than the love between a mother and a child."
 
 embedding = embeddings.embed_query(text)
 print(embedding)

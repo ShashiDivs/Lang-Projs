@@ -1,10 +1,11 @@
 from dotenv import load_dotenv
 from langchain_openai import OpenAI
+from schema.scheam import LLM
 
-load_dotenv(override=True)
+# load_dotenv(override=True)
 
-llm = OpenAI(
-    model="gpt-4o-mini"
-)
+# llm = OpenAI(
+#     model="gpt-4o-mini"
+# )
 
-print(llm.invoke("What is the AI revolution?"))
+print(LLM.invoke("What is the AI revolution?"))
